@@ -1,0 +1,129 @@
+.section-workshops {
+  .section-content {
+    display: flex;
+    justify-content: space-around;
+
+    .info {
+      height: 400px;
+      width: 400px;
+      margin-top: 85px;
+
+      p {
+        font-size: 1.4rem;
+      }
+
+      .link-btn {
+        width: 300px;
+        background-color: #000;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        line-height: 1.55;
+        margin-top: 40px;
+        padding: 8px;
+        border: 2px solid black;
+        border-radius: 40px;
+        cursor: pointer;
+
+        a {
+          color: #fff;
+        }
+
+        &:focus {
+          outline: none;
+        }
+
+        &:hover {
+          background-color: #292929;
+        }
+      }
+    }
+
+    .image-container {
+      width: 530px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: auto !important;
+
+    .section-content {
+      padding-bottom: 20px;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        height: auto;
+
+        p {
+          width: 90%;
+          font-size: 1.1rem;
+          margin-top: -30px;
+        }
+
+        .link-btn {
+          width: 240px;
+          font-size: 1.1rem;
+          margin-top: 40px;
+          padding: 3px;
+        }
+      }
+
+      .image-container {
+        width: 360px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .section-content {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding-bottom: 60px;
+
+      .info {
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+
+        p {
+          margin-top: 10px;
+          text-align: center;
+        }
+
+        .link-btn {
+          width: 68%;
+          font-size: 1rem;
+          margin-top: 20px;
+        }
+      }
+
+      .image-container {
+        width: 300px;
+      }
+    }
+  }
+
+  &.dark {
+    .section-content > .info {
+      .link-btn {
+        border: 2px solid #eee;
+
+        a {
+          color: #eee;
+        }
+
+        &:hover {
+          background-color: #eee;
+
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

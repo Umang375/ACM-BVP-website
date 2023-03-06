@@ -1,0 +1,15 @@
+.section-dsp {
+  height: auto;
+  color: #111;
+
+  .section-heading {
+    text-align: center;
+    font-size: 2.8rem;
+    padding-top: 40px;
+    margin: 0 0 60px 0;
+
+    @media only screen and (max-width: 425px) {
+      font-size: 2rem;
+    }
+  }
+}

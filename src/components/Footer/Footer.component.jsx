@@ -69,7 +69,7 @@ const Footer = () => {
       <p className="sub-heading credit">
         Managed by{" "}
         <a
-          href="https://dakshkhetan.now.sh"
+          href=" "
           target="_blank"
           rel="noopener noreferrer"
           className="credit-link underline"

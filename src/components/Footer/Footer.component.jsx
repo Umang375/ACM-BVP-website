@@ -67,14 +67,14 @@ const Footer = () => {
         <Link to="/code-of-conduct">Code of Conduct</Link>
       </p>
       <p className="sub-heading credit">
-        Designed & developed by{" "}
+        Managed by{" "}
         <a
           href="https://dakshkhetan.now.sh"
           target="_blank"
           rel="noopener noreferrer"
           className="credit-link underline"
         >
-          Daksh Khetan
+          Umang Jain & Ayush Dixit
         </a>
       </p>
     </section>

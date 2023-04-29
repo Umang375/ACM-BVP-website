@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
   faLinkedinIn,
-  faGithub
+  faGithub,
+  faInstagram
 } from "@fortawesome/free-brands-svg-icons";
 
 import DisplayImagePlaceholder from "../../assets/display-pics/displayPicTemplate.png";
@@ -19,7 +20,8 @@ const Person = ({ member }) => {
     displayPicSrc,
     linkedInURL,
     githubURL,
-    twitterURL
+    twitterURL,
+    instaURL
   } = member;
 
   return (
@@ -69,6 +71,16 @@ const Person = ({ member }) => {
             <FontAwesomeIcon icon={faGithub} className="icon github m-8" />
           </a>
         )}
+        {instaURL && (
+          <a
+            href={instaURL}
+            className="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faInstagram} className="icon instagram fa-bold" />
+          </a>
+        )}
         {twitterURL && (
           <a
             href={twitterURL}
@@ -79,6 +91,7 @@ const Person = ({ member }) => {
             <FontAwesomeIcon icon={faTwitter} className="icon twitter" />
           </a>
         )}
+
       </div>
     </div>
   );

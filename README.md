@@ -23,7 +23,7 @@ Start the project locally.
 
 ### Step 1: Clone the repo
 
-Fork the repository, then clone the repo locally by running command:
+Fork the repository , then clone the repo locally by running command:
 
 ```sh
 git clone https://github.com/dakshkhetan/acm-bvp-website.git

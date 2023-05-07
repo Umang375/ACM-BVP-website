@@ -4,7 +4,7 @@
     <img src="./src/assets/acm-logo/ACM-BVP-logo.png" alt="ACM BVP Logo" width="150">
   </a>
 
-  <h3 align="center">Official ACM BVP Website</h3>
+  <h3 align="center">Official ACM BVP Website</h3> 
 
   <p align="center">
     <a href="https://www.codacy.com/manual/dakshkhetan/acm-bvp-website/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dakshkhetan/acm-bvp-website&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/0eb2af24b1fb4d579d39acd20b6416f3"/></a>
